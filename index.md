@@ -173,6 +173,16 @@ Computational mathematician and researcher specialising in high-performance comp
     </div>
   </div>
 
+  <div class="project-card project-card--wide">
+    <h3>FDA Nozzle &mdash; Transitional Flow Simulation</h3>
+    <p>Computational fluid dynamics simulation of transitional flow through the FDA benchmark nozzle geometry. Visualisation of 600 time frames capturing the laminar-to-turbulent transition regime.</p>
+    <video class="project-video" autoplay loop muted playsinline>
+      <source src="{{ '/assets/videos/fda_nozzle.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/assets/videos/fda_nozzle.webm' | relative_url }}" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
 </div>
 
 </section>
