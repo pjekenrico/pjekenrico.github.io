@@ -1,30 +1,62 @@
-/* ── Timeline ─────────────────────────────────────────── */
-.timeline {
+/* ── Two-column centered timeline ─────────────────────── */
+.timeline-two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   position: relative;
-  margin: 1rem 0 0.5rem 0;
-  padding: 0.5rem 0;
+  margin: 1.5rem 0;
 }
 
-/* Vertical line */
-.timeline::after {
+/* Center vertical line */
+.timeline-two-col::after {
   content: '';
   position: absolute;
   width: 3px;
   background: #d0d7de;
   top: 0;
   bottom: 0;
-  left: 18px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-/* Event container */
+/* Column containers */
+.timeline-col {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.timeline-col--left {
+  padding-right: 2rem;
+}
+
+.timeline-col--right {
+  padding-left: 2rem;
+}
+
+/* Column labels */
+.timeline-col__label {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #666;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+}
+
+/* Event cards */
 .timeline-event {
-  position: relative;
-  margin: 0 0 1.75rem 54px;
-  padding: 0.75rem 1rem;
   background: #fafbfc;
   border: 1px solid #e1e4e8;
-  border-left: 3px solid #0366d6;
   border-radius: 5px;
+  padding: 0.75rem 1rem;
+}
+
+.timeline-col--left .timeline-event {
+  border-right: 3px solid #0366d6;
+}
+
+.timeline-col--right .timeline-event {
+  border-left: 3px solid #0366d6;
 }
 
 .timeline-event h3 {
@@ -47,6 +79,27 @@
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-bottom: 0.25rem;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 600px) {
+  .timeline-two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline-two-col::after {
+    display: none;
+  }
+
+  .timeline-col--left,
+  .timeline-col--right {
+    padding: 0;
+  }
+
+  .timeline-col--left .timeline-event {
+    border-right: 1px solid #e1e4e8;
+    border-left: 3px solid #0366d6;
+  }
 }
 
 

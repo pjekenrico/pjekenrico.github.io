@@ -33,60 +33,58 @@ Computational mathematician and researcher specialising in high-performance comp
 
 ---
 
-<section id="experience">
+<section id="career">
 
-## Experience
+## Experience &amp; Education
 
-<div class="timeline">
+<div class="timeline-two-col">
 
-  <div class="timeline-event">
-    <time>2025 &ndash; Present</time>
-    <h3>Research Scientist &ndash; Philips Healthcare</h3>
-    <p>Clinical ultrasound image quality. Implementation and optimisation of shape-adaptive GPU filters for real-time 2D/3D ultrasound texture processing on-cart (NVIDIA RTX GPU).</p>
+  <div class="timeline-col timeline-col--left">
+    <p class="timeline-col__label" id="experience">Experience</p>
+
+    <div class="timeline-event">
+      <time>2025 &ndash; Present</time>
+      <h3>Research Scientist &ndash; Philips Healthcare</h3>
+      <p>Clinical ultrasound image quality. Implementation and optimisation of shape-adaptive GPU filters for real-time 2D/3D ultrasound texture processing on-cart (NVIDIA RTX GPU).</p>
+    </div>
+
+    <div class="timeline-event">
+      <time>2024 &ndash; 2025</time>
+      <h3>PostDoc &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+      <p>Machine-learning approaches for intracranial aneurysm risk assessment.</p>
+    </div>
+
+    <div class="timeline-event">
+      <time>2021 &ndash; 2024</time>
+      <h3>PhD Researcher &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+      <p>Thesis: <em>Hemodynamic Modelling and Simulation of Flow Diverters for Intracranial Aneurysm Treatment</em>. Derived and implemented a wiring algorithm for braided flow-diverter stents; published in <em>Computers in Biology and Medicine</em>.</p>
+    </div>
+
   </div>
 
-  <div class="timeline-event">
-    <time>2024 &ndash; 2025</time>
-    <h3>PostDoc &ndash; Cemef, Mines Paris &middot; PSL University</h3>
-    <p>Machine-learning approaches for intracranial aneurysm risk assessment.</p>
-  </div>
+  <div class="timeline-col timeline-col--right">
+    <p class="timeline-col__label" id="education">Education</p>
 
-  <div class="timeline-event">
-    <time>2021 &ndash; 2024</time>
-    <h3>PhD Researcher &ndash; Cemef, Mines Paris &middot; PSL University</h3>
-    <p>Thesis: <em>Hemodynamic Modelling and Simulation of Flow Diverters for Intracranial Aneurysm Treatment</em>. Derived and implemented a wiring algorithm for braided flow-diverter stents; published in <em>Computers in Biology and Medicine</em>.</p>
-  </div>
+    <div class="timeline-event">
+      <time>2020 &ndash; 2021</time>
+      <h3>M.Sc. Applied Mathematics &ndash; KTH Royal Institute of Technology, Stockholm</h3>
+    </div>
 
-</div>
+    <div class="timeline-event">
+      <time>2019 &ndash; 2020</time>
+      <h3>M.Sc. Applied Mathematics &ndash; TU Delft <span class="badge">Cum Laude</span></h3>
+    </div>
 
-</section>
+    <div class="timeline-event">
+      <time>2015 &ndash; 2019</time>
+      <h3>B.Sc. Physics Engineering &ndash; TU Berlin</h3>
+    </div>
 
----
+    <div class="timeline-event">
+      <time>2003 &ndash; 2015</time>
+      <h3>Deutsche Schule Madrid</h3>
+    </div>
 
-<section id="education">
-
-## Education
-
-<div class="timeline">
-
-  <div class="timeline-event">
-    <time>2020 &ndash; 2021</time>
-    <h3>M.Sc. Applied Mathematics &ndash; KTH Royal Institute of Technology, Stockholm</h3>
-  </div>
-
-  <div class="timeline-event">
-    <time>2019 &ndash; 2020</time>
-    <h3>M.Sc. Applied Mathematics &ndash; TU Delft <span class="badge">Cum Laude</span></h3>
-  </div>
-
-  <div class="timeline-event">
-    <time>2015 &ndash; 2019</time>
-    <h3>B.Sc. Physics Engineering &ndash; TU Berlin</h3>
-  </div>
-
-  <div class="timeline-event">
-    <time>2003 &ndash; 2015</time>
-    <h3>Deutsche Schule Madrid</h3>
   </div>
 
 </div>
