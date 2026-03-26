@@ -163,11 +163,30 @@ Computational mathematician and researcher specialising in high-performance comp
   </div>
 
   <div class="project-card">
-    <h3>Hemodynamics of Stented Intracranial Aneurysms</h3>
-    <p>Derivation and implementation of a wiring algorithm for braided flow-diverter stents. Published in <em>Computers in Biology and Medicine</em> (2024).</p>
+    <h3>Virtual Flow Diverter Deployment for Hemodynamic Simulations</h3>
+    <span class="pub-venue">Computers in Biology and Medicine &middot; 2024</span>
+    <p>Derivation and implementation of a wiring algorithm for braided flow-diverter stents enabling virtual deployment and hemodynamic simulation.</p>
     <div class="project-links">
-      <a href="https://www.sciencedirect.com/science/article/pii/S0010482524011089?via%3Dihub" target="_blank">Paper &rarr;</a>
+      <a href="https://www.sciencedirect.com/science/article/pii/S0010482524011089" target="_blank">Paper &rarr;</a>
       <a href="https://github.com/pjekenrico/py_geo_fd" target="_blank">Code &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>Impact of Domain Boundaries on Hemodynamics in Intracranial Aneurysms</h3>
+    <span class="pub-venue">Fluids (MDPI) &middot; 2024</span>
+    <p>Evaluating how inlet/outlet boundary placement within the Circle of Willis affects hemodynamic predictions in intracranial aneurysm simulations.</p>
+    <div class="project-links">
+      <a href="https://www.mdpi.com/2311-5521/9/1/1" target="_blank">Paper &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>Delayed Rupture of Flow Diverter-Treated Giant Aneurysm</h3>
+    <span class="pub-venue">Bioengineering (MDPI) &middot; 2025</span>
+    <p>Investigating delayed rupture risk after flow diverter treatment of a giant aneurysm using fluid&ndash;structure interaction simulations.</p>
+    <div class="project-links">
+      <a href="https://www.mdpi.com/2306-5354/12/3/305" target="_blank">Paper &rarr;</a>
     </div>
   </div>
 
