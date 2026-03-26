@@ -1,8 +1,9 @@
+/* ── Base ─────────────────────────────────────────────── */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  max-width: 800px;
-  margin: 4rem auto;
-  padding: 0 1rem;
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 1.25rem 4rem;
   line-height: 1.6;
   color: #222;
 }
@@ -18,4 +19,146 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+section {
+  margin-top: 2.5rem;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #e1e4e8;
+  margin: 2.5rem 0;
+}
+
+/* ── Navigation ───────────────────────────────────────── */
+.page-nav {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  border-bottom: 1px solid #e1e4e8;
+  padding: 0.6rem 0;
+  display: flex;
+  gap: 1.5rem;
+  z-index: 100;
+  margin-bottom: 2.5rem;
+}
+
+.page-nav a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #444;
+}
+
+.page-nav a:hover {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+/* ── Hero ─────────────────────────────────────────────── */
+.hero {
+  padding: 2.5rem 0 1.5rem;
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  margin: 0 0 0.3rem;
+}
+
+.hero-tagline {
+  font-size: 1.05rem;
+  color: #555;
+  margin: 0 0 1rem;
+}
+
+.hero-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.hero-links a,
+.hero-links span {
+  color: #444;
+}
+
+.hero-links a:hover {
+  color: #0366d6;
+}
+
+/* ── Skill tags ───────────────────────────────────────── */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.skills-group h3 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #666;
+  margin: 0 0 0.6rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.skill-tag {
+  background: #eef2f7;
+  color: #333;
+  border-radius: 3px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+
+/* ── Badge (e.g. Cum Laude) ───────────────────────────── */
+.badge {
+  display: inline-block;
+  background: #d4edda;
+  color: #2b6e3a;
+  border-radius: 3px;
+  padding: 0.1rem 0.45rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  vertical-align: middle;
+  margin-left: 0.4rem;
+}
+
+/* ── Project cards ────────────────────────────────────── */
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1rem;
+}
+
+.project-card {
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 1.2rem 1.4rem;
+  background: #fafbfc;
+}
+
+.project-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.project-card p {
+  margin: 0 0 0.8rem;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.85rem;
 }

@@ -3,77 +3,176 @@ layout: default
 title: Home
 ---
 
+<nav class="page-nav">
+  <a href="#about">About</a>
+  <a href="#experience">Experience</a>
+  <a href="#education">Education</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+</nav>
 
-# Pablo Jeken Rico
-
-Computational mathematician and researcher specializing in high performance computing, scientific computing, and medical applications. Currently a researcher at Philips working on implementing and optimizing new image enhancement algorithms for clinical ultrasound. Focus on the GPU-based signal path for 2D and 3D texture processing.
-
-**Contact:**  
-Location: 13 rue de Loing, 75014 Paris, France  
-Email: pablojeken@hotmail.com  
-Phone: (+49) 176 23203812  
-GitHub: https://github.com/pjekenrico
-
-**Languages:** German (Native, C2), Spanish (Native, C2), English (Fluent, C1/C2), French (Fluent)
-
-**Research Interests:**
-- Development of GPU-optimized algorithms
-- Fluid-structure interaction in biomedical engineering
-- Hemodynamics and aneurysm treatment simulation
-- High performance computing and scientific software development
-
-**Technical Skills:**
-- C++, Python, C#, CUDA, VTK
-- Version control (Git/GitLab/svn), CI/CD, remote development (SSH/SCP)
-
-**Education:**
-- 2025-now: Research scientist in the field of clinical ultrasound image quality at Philips
-- 2024–2025: PostDoc in ML for aneurysm risk assessment, Cemef, Mines Paris - PSL University
-- 2021–2024: PhD in Computational Mathematics, Cemef, Mines Paris - PSL University
-  Thesis: Hemodynamic Modelling and Simulation of Flow Diverters for Intracranial Aneurysm Treatment
-- 2020–2021: M.Sc. in Applied Mathematics, KTH Royal Institute of Technology, Stockholm
-- 2019–2020: M.Sc. in Applied Mathematics, TU Delft, Cum Laude
-- 2015–2019: B.Sc. in Physics Engineering, TU Berlin
-- 2003–2015: Deutsche Schule Madrid
+<header class="hero">
+  <h1>Pablo Jeken Rico</h1>
+  <p class="hero-tagline">Computational Mathematician &middot; Research Scientist &middot; HPC &amp; Medical Imaging</p>
+  <div class="hero-links">
+    <a href="mailto:pablojeken@hotmail.com">&#9993; pablojeken@hotmail.com</a>
+    <a href="https://github.com/pjekenrico" target="_blank">&#9670; GitHub</a>
+    <span>&#128205; Paris, France</span>
+  </div>
+</header>
 
 ---
 
----
+<section id="about">
 
-## Projects
+## About
 
-- **Shape-adaptive filtering on Ultrasound images** – Development of robust filters for the treatment of real-time ultrasound images. Implementation and optimization of on-cart GPU routines @ Philips (https://www.usa.philips.com/healthcare/article/ultrasound-innovation-nvidia-rtx-gpu-beamforming).
-- **Hemodynamics simulations of stented intracranial aneurysms** – Derivation and implementation of a wiring algorithm for braided flow-diverter stents (https://www.sciencedirect.com/science/article/pii/S0010482524011089?via%3Dihub , https://github.com/pjekenrico/py_geo_fd).
+Computational mathematician and researcher specialising in high-performance computing, scientific computing, and medical applications. Currently a Research Scientist at Philips, implementing and optimising GPU-based image-enhancement algorithms for clinical ultrasound (2D &amp; 3D texture processing). Previously worked on PhD and PostDoc research at Cemef, Mines Paris &ndash; PSL University, focusing on hemodynamics modelling and machine-learning approaches for intracranial aneurysm risk assessment.
 
-## Contact
-
-- Email: pablojeken@hotmail.com  
-- GitHub: https://github.com/pjekenrico
+</section>
 
 ---
 
-<link rel="stylesheet" href="{{ '/assets/css/timeline.css' | relative_url }}">
+<section id="experience">
+
+## Experience
 
 <div class="timeline">
 
   <div class="timeline-event">
-    <time>2026 • Today</time>
-    <h3>Launched my GitHub Pages</h3>
-    <p>Started building a custom portfolio and timeline layout.</p>
+    <time>2025 &ndash; Present</time>
+    <h3>Research Scientist &ndash; Philips Healthcare</h3>
+    <p>Clinical ultrasound image quality. Implementation and optimisation of shape-adaptive GPU filters for real-time 2D/3D ultrasound texture processing on-cart (NVIDIA RTX GPU).</p>
   </div>
 
   <div class="timeline-event">
-    <time>2025 • Major Project</time>
-    <h3>Published Research Project</h3>
-    <p>Released my main computational fluid dynamics project.</p>
+    <time>2024 &ndash; 2025</time>
+    <h3>PostDoc &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+    <p>Machine-learning approaches for intracranial aneurysm risk assessment.</p>
   </div>
 
   <div class="timeline-event">
-    <time>2024 • PhD Defense</time>
-    <h3>Defended my PhD Thesis</h3>
-    <p>Completed my doctoral research on hemodynamic modeling.</p>
+    <time>2021 &ndash; 2024</time>
+    <h3>PhD Researcher &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+    <p>Thesis: <em>Hemodynamic Modelling and Simulation of Flow Diverters for Intracranial Aneurysm Treatment</em>. Derived and implemented a wiring algorithm for braided flow-diverter stents; published in <em>Computers in Biology and Medicine</em>.</p>
   </div>
-
-  <!-- Add more events here -->
 
 </div>
+
+</section>
+
+---
+
+<section id="education">
+
+## Education
+
+<div class="timeline">
+
+  <div class="timeline-event">
+    <time>2020 &ndash; 2021</time>
+    <h3>M.Sc. Applied Mathematics &ndash; KTH Royal Institute of Technology, Stockholm</h3>
+  </div>
+
+  <div class="timeline-event">
+    <time>2019 &ndash; 2020</time>
+    <h3>M.Sc. Applied Mathematics &ndash; TU Delft <span class="badge">Cum Laude</span></h3>
+  </div>
+
+  <div class="timeline-event">
+    <time>2015 &ndash; 2019</time>
+    <h3>B.Sc. Physics Engineering &ndash; TU Berlin</h3>
+  </div>
+
+  <div class="timeline-event">
+    <time>2003 &ndash; 2015</time>
+    <h3>Deutsche Schule Madrid</h3>
+  </div>
+
+</div>
+
+</section>
+
+---
+
+<section id="skills">
+
+## Skills
+
+<div class="skills-grid">
+
+  <div class="skills-group">
+    <h3>Programming</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">C++</span>
+      <span class="skill-tag">Python</span>
+      <span class="skill-tag">CUDA</span>
+      <span class="skill-tag">C#</span>
+      <span class="skill-tag">VTK</span>
+    </div>
+  </div>
+
+  <div class="skills-group">
+    <h3>Tools &amp; DevOps</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">Git / GitLab / SVN</span>
+      <span class="skill-tag">CI/CD</span>
+      <span class="skill-tag">HPC</span>
+      <span class="skill-tag">SSH / SCP</span>
+      <span class="skill-tag">GPU Computing</span>
+    </div>
+  </div>
+
+  <div class="skills-group">
+    <h3>Research Areas</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">Scientific Computing</span>
+      <span class="skill-tag">Fluid-Structure Interaction</span>
+      <span class="skill-tag">Hemodynamics</span>
+      <span class="skill-tag">Medical Imaging</span>
+      <span class="skill-tag">Machine Learning</span>
+    </div>
+  </div>
+
+  <div class="skills-group">
+    <h3>Languages</h3>
+    <div class="skill-tags">
+      <span class="skill-tag">German C2</span>
+      <span class="skill-tag">Spanish C2</span>
+      <span class="skill-tag">English C1/C2</span>
+      <span class="skill-tag">French (Fluent)</span>
+    </div>
+  </div>
+
+</div>
+
+</section>
+
+---
+
+<section id="projects">
+
+## Projects &amp; Publications
+
+<div class="project-cards">
+
+  <div class="project-card">
+    <h3>Shape-Adaptive Filtering for Ultrasound</h3>
+    <p>Development of robust filters for real-time ultrasound image treatment. Implementation and optimisation of on-cart NVIDIA RTX GPU routines at Philips.</p>
+    <div class="project-links">
+      <a href="https://www.usa.philips.com/healthcare/article/ultrasound-innovation-nvidia-rtx-gpu-beamforming" target="_blank">Philips article &rarr;</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <h3>Hemodynamics of Stented Intracranial Aneurysms</h3>
+    <p>Derivation and implementation of a wiring algorithm for braided flow-diverter stents. Published in <em>Computers in Biology and Medicine</em> (2024).</p>
+    <div class="project-links">
+      <a href="https://www.sciencedirect.com/science/article/pii/S0010482524011089?via%3Dihub" target="_blank">Paper &rarr;</a>
+      <a href="https://github.com/pjekenrico/py_geo_fd" target="_blank">Code &rarr;</a>
+    </div>
+  </div>
+
+</div>
+
+</section>
