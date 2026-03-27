@@ -39,82 +39,114 @@ Computational mathematician and researcher specialising in high-performance comp
 
 <div class="timeline-two-col">
 
-  <div class="timeline-col timeline-col--left" id="experience">
-    <p class="timeline-col__label">Experience</p>
+  <div class="timeline-head">
+    <p class="timeline-col__label" id="experience">Experience</p>
+    <p class="timeline-col__label" id="education">Education</p>
+  </div>
 
-    <article class="timeline-event">
+  <div class="timeline-row">
+    <article class="timeline-event timeline-event--left">
       <time>2025 &ndash; Present</time>
       <h3>Research Scientist &ndash; Philips Healthcare</h3>
       <p>Clinical ultrasound image quality. Implementation and optimisation of shape-adaptive GPU filters for real-time 2D/3D ultrasound texture processing on-cart (NVIDIA RTX GPU).</p>
     </article>
+    <div class="timeline-slot"></div>
+  </div>
 
-    <article class="timeline-event">
-      <time>2023 &middot; 1 month</time>
-      <h3>Visiting Researcher &ndash; Stanford University</h3>
-      <p>One-month collaboration on thrombosis-risk prediction in coronary aneurysms using computer vision and deep learning.</p>
-    </article>
-
-    <article class="timeline-event">
-      <time>2021 &middot; 7 months</time>
-      <h3>Working Student &ndash; BASF Ultrasim</h3>
-      <p>Seven-month project on CNN-based parameter optimisation in polyurethane foaming simulations.</p>
-    </article>
-
-    <article class="timeline-event">
-      <time>2020 &middot; 5 months</time>
-      <h3>Research Intern &ndash; Deltares</h3>
-      <p>Five-month internship benchmarking clustering methods on satellite water-quality indicators and chlorophyll-A prediction.</p>
-    </article>
-
-    <article class="timeline-event">
-      <time>2019 &middot; 9 months</time>
-      <h3>Working Student &ndash; BASF Ultrasim</h3>
-      <p>Nine-month project developing an OpenFOAM-based solver for injection moulding of composite materials.</p>
-    </article>
-
-    <article class="timeline-event">
-      <time>2018 &middot; 4 months</time>
-      <h3>Research Intern &ndash; Voith, Measurements &amp; Diagnostics</h3>
-      <p>Implemented drivers and GUI tools for roller-pressure recording and image-based imbalance diagnosis.</p>
+  <div class="timeline-row">
+    <div class="timeline-slot"></div>
+    <article class="timeline-event timeline-event--right">
+      <time>2024 &ndash; 2025</time>
+      <h3>PostDoc &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+      <p>Machine learning for aneurysm risk assessment, combined with Associate Researcher responsibilities in fluid&ndash;structure interaction simulations and continuum modelling for endovascular prostheses.</p>
     </article>
   </div>
 
-  <div class="timeline-col timeline-col--right" id="education">
-    <p class="timeline-col__label">Education</p>
-
-    <article class="timeline-event">
-      <time>2024 &ndash; 2025</time>
-      <h3>PostDoc&ndash; Cemef, Mines Paris &middot; PSL University</h3>
-      <p>Machine learning for aneurysm risk assessment, combined with Associate Researcher responsibilities in fluid&ndash;structure interaction simulations and continuum modelling for endovascular prostheses.</p>
+  <div class="timeline-row">
+    <article class="timeline-event timeline-event--left">
+      <time>2023 &middot; 1 month</time>
+      <h3>Visiting Researcher &ndash; Stanford University</h3>
+      <p>Collaboration on thrombosis-risk prediction in coronary aneurysms using computer vision and deep learning.</p>
     </article>
+    <div class="timeline-slot"></div>
+  </div>
 
-    <article class="timeline-event">
+  <div class="timeline-row">
+    <div class="timeline-slot"></div>
+    <article class="timeline-event timeline-event--right">
       <time>2021 &ndash; 2024</time>
       <h3>PhD &ndash; Cemef, Mines Paris &middot; PSL University</h3>
       <p>Computational Mathematics, HPC and Data, with research on image-based hemodynamics simulations and machine-learning approaches for treatment optimisation.</p>
       <p>Thesis: <em>Hemodynamic Modelling and Simulation of Flow Diverters for Intracranial Aneurysm Treatment</em>.</p>
     </article>
+  </div>
 
-    <article class="timeline-event">
+  <div class="timeline-row">
+    <article class="timeline-event timeline-event--left">
+      <time>2021 &middot; 7 months</time>
+      <h3>Working Student &ndash; BASF Ultrasim</h3>
+      <p>CNN-based parameter optimisation in polyurethane foaming simulations.</p>
+    </article>
+    <div class="timeline-slot"></div>
+  </div>
+
+  <div class="timeline-row">
+    <div class="timeline-slot"></div>
+    <article class="timeline-event timeline-event--right">
       <time>2020 &ndash; 2021</time>
       <h3>M.Sc. Applied Mathematics &ndash; KTH Royal Institute of Technology, Stockholm</h3>
     </article>
+  </div>
 
-    <article class="timeline-event">
+  <div class="timeline-row">
+    <article class="timeline-event timeline-event--left">
+      <time>2020 &middot; 5 months</time>
+      <h3>Research Intern &ndash; Deltares</h3>
+      <p>Benchmarking clustering methods on satellite water-quality indicators and chlorophyll-A prediction.</p>
+    </article>
+    <div class="timeline-slot"></div>
+  </div>
+
+  <div class="timeline-row">
+    <div class="timeline-slot"></div>
+    <article class="timeline-event timeline-event--right">
       <time>2019 &ndash; 2020</time>
       <h3>M.Sc. Applied Mathematics &ndash; TU Delft <span class="badge">Cum Laude</span></h3>
     </article>
+  </div>
 
-    <article class="timeline-event">
+  <div class="timeline-row">
+    <article class="timeline-event timeline-event--left">
+      <time>2019 &middot; 9 months</time>
+      <h3>Working Student &ndash; BASF Ultrasim</h3>
+      <p>Developed an OpenFOAM-based solver for injection moulding of composite materials.</p>
+    </article>
+    <div class="timeline-slot"></div>
+  </div>
+
+  <div class="timeline-row">
+    <article class="timeline-event timeline-event--left">
+      <time>2018 &middot; 4 months</time>
+      <h3>Research Intern &ndash; Voith, Measurements &amp; Diagnostics</h3>
+      <p>Implemented drivers and GUI tools for roller-pressure recording and image-based imbalance diagnosis.</p>
+    </article>
+    <div class="timeline-slot"></div>
+  </div>
+
+  <div class="timeline-row">
+    <div class="timeline-slot"></div>
+    <article class="timeline-event timeline-event--right">
       <time>2015 &ndash; 2019</time>
       <h3>B.Sc. Physics Engineering &ndash; TU Berlin</h3>
     </article>
+  </div>
 
-    <article class="timeline-event">
+  <div class="timeline-row">
+    <div class="timeline-slot"></div>
+    <article class="timeline-event timeline-event--right">
       <time>2003 &ndash; 2015</time>
       <h3>Deutsche Schule Madrid</h3>
     </article>
-
   </div>
 
 </div>
