@@ -49,21 +49,9 @@ Computational mathematician and researcher specialising in high-performance comp
     </article>
 
     <article class="timeline-event">
-      <time>2024 &ndash; 2025</time>
-      <h3>Associate Researcher &ndash; Cemef, Mines Paris &middot; PSL University</h3>
-      <p>Fluid&ndash;structure interaction simulations of treated intracranial aneurysms and development of continuum models for endovascular prostheses.</p>
-    </article>
-
-    <article class="timeline-event">
       <time>2023 &middot; 1 month</time>
       <h3>Visiting Researcher &ndash; Stanford University</h3>
       <p>One-month collaboration on thrombosis-risk prediction in coronary aneurysms using computer vision and deep learning.</p>
-    </article>
-
-    <article class="timeline-event">
-      <time>2021 &ndash; 2024</time>
-      <h3>PhD Candidate &ndash; Cemef, Mines Paris &middot; PSL University</h3>
-      <p>Image-based hemodynamics simulations of treated intracranial aneurysms and machine-learning approaches for treatment optimisation.</p>
     </article>
 
     <article class="timeline-event">
@@ -96,12 +84,14 @@ Computational mathematician and researcher specialising in high-performance comp
 
     <article class="timeline-event">
       <time>2024 &ndash; 2025</time>
-      <h3>PostDoc in ML for Aneurysm Risk Assessment &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+      <h3>PostDoc&ndash; Cemef, Mines Paris &middot; PSL University</h3>
+      <p>Machine learning for aneurysm risk assessment, combined with Associate Researcher responsibilities in fluid&ndash;structure interaction simulations and continuum modelling for endovascular prostheses.</p>
     </article>
 
     <article class="timeline-event">
       <time>2021 &ndash; 2024</time>
-      <h3>PhD in Computational Mathematics, HPC and Data &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+      <h3>PhD &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+      <p>Computational Mathematics, HPC and Data, with research on image-based hemodynamics simulations and machine-learning approaches for treatment optimisation.</p>
       <p>Thesis: <em>Hemodynamic Modelling and Simulation of Flow Diverters for Intracranial Aneurysm Treatment</em>.</p>
     </article>
 
