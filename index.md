@@ -118,6 +118,11 @@ Computational mathematician and researcher specialising in high-performance comp
       <h3>Research Intern &ndash; Voith, Measurements &amp; Diagnostics</h3>
       <p>Implemented drivers and GUI tools for roller-pressure recording and image-based imbalance diagnosis.</p>
     </article>
+    <div class="timeline-slot"></div>
+  </div>
+
+  <div class="timeline-row">
+    <div class="timeline-slot"></div>
     <article class="timeline-event timeline-event--right">
       <time>2003 &ndash; 2015</time>
       <h3>Deutsche Schule Madrid</h3>
