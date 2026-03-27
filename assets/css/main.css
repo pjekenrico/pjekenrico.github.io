@@ -12,6 +12,11 @@ h1, h2, h3 {
   line-height: 1.25;
 }
 
+.section-title {
+  margin: 0 0 0.9rem;
+  font-size: 1.7rem;
+}
+
 a {
   color: #0366d6;
   text-decoration: none;

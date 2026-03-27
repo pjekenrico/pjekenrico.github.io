@@ -25,7 +25,7 @@ title: Home
 
 <section id="about">
 
-## About
+<h2 class="section-title">About</h2>
 
 Computational mathematician and researcher specialising in high-performance computing, scientific computing, and medical applications. Currently a Research Scientist at Philips, implementing and optimising GPU-based image-enhancement algorithms for clinical ultrasound (2D &amp; 3D texture processing). Previously worked on PhD and PostDoc research at Cemef, Mines Paris &ndash; PSL University, focusing on hemodynamics modelling and machine-learning approaches for intracranial aneurysm risk assessment.
 
@@ -35,54 +35,97 @@ Computational mathematician and researcher specialising in high-performance comp
 
 <section id="career">
 
-## Experience &amp; Education
+<h2 class="section-title">Experience &amp; Education</h2>
 
-<div class="timeline" id="experience">
+<div class="timeline-two-col">
 
-  <article class="timeline-event timeline-event--left">
-    <span class="timeline-event__track">Experience</span>
-    <time>2025 &ndash; Present</time>
-    <h3>Research Scientist &ndash; Philips Healthcare</h3>
-    <p>Clinical ultrasound image quality. Implementation and optimisation of shape-adaptive GPU filters for real-time 2D/3D ultrasound texture processing on-cart (NVIDIA RTX GPU).</p>
-  </article>
+  <div class="timeline-col timeline-col--left" id="experience">
+    <p class="timeline-col__label">Experience</p>
 
-  <article class="timeline-event timeline-event--right">
-    <span class="timeline-event__track">Experience</span>
-    <time>2024 &ndash; 2025</time>
-    <h3>PostDoc &ndash; Cemef, Mines Paris &middot; PSL University</h3>
-    <p>Machine-learning approaches for intracranial aneurysm risk assessment.</p>
-  </article>
+    <article class="timeline-event">
+      <time>2025 &ndash; Present</time>
+      <h3>Research Scientist &ndash; Philips Healthcare</h3>
+      <p>Clinical ultrasound image quality. Implementation and optimisation of shape-adaptive GPU filters for real-time 2D/3D ultrasound texture processing on-cart (NVIDIA RTX GPU).</p>
+    </article>
 
-  <article class="timeline-event timeline-event--left">
-    <span class="timeline-event__track">Experience</span>
-    <time>2021 &ndash; 2024</time>
-    <h3>PhD Researcher &ndash; Cemef, Mines Paris &middot; PSL University</h3>
-    <p>Thesis: <em>Hemodynamic Modelling and Simulation of Flow Diverters for Intracranial Aneurysm Treatment</em>. Derived and implemented a wiring algorithm for braided flow-diverter stents; published in <em>Computers in Biology and Medicine</em>.</p>
-  </article>
+    <article class="timeline-event">
+      <time>2024 &ndash; 2025</time>
+      <h3>Associate Researcher &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+      <p>Fluid&ndash;structure interaction simulations of treated intracranial aneurysms and development of continuum models for endovascular prostheses.</p>
+    </article>
 
-  <article class="timeline-event timeline-event--right" id="education">
-    <span class="timeline-event__track">Education</span>
-    <time>2020 &ndash; 2021</time>
-    <h3>M.Sc. Applied Mathematics &ndash; KTH Royal Institute of Technology, Stockholm</h3>
-  </article>
+    <article class="timeline-event">
+      <time>2023 &middot; 1 month</time>
+      <h3>Visiting Researcher &ndash; Stanford University</h3>
+      <p>One-month collaboration on thrombosis-risk prediction in coronary aneurysms using computer vision and deep learning.</p>
+    </article>
 
-  <article class="timeline-event timeline-event--left">
-    <span class="timeline-event__track">Education</span>
-    <time>2019 &ndash; 2020</time>
-    <h3>M.Sc. Applied Mathematics &ndash; TU Delft <span class="badge">Cum Laude</span></h3>
-  </article>
+    <article class="timeline-event">
+      <time>2021 &ndash; 2024</time>
+      <h3>PhD Candidate &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+      <p>Image-based hemodynamics simulations of treated intracranial aneurysms and machine-learning approaches for treatment optimisation.</p>
+    </article>
 
-  <article class="timeline-event timeline-event--right">
-    <span class="timeline-event__track">Education</span>
-    <time>2015 &ndash; 2019</time>
-    <h3>B.Sc. Physics Engineering &ndash; TU Berlin</h3>
-  </article>
+    <article class="timeline-event">
+      <time>2021 &middot; 7 months</time>
+      <h3>Working Student &ndash; BASF Ultrasim</h3>
+      <p>Seven-month project on CNN-based parameter optimisation in polyurethane foaming simulations.</p>
+    </article>
 
-  <article class="timeline-event timeline-event--left">
-    <span class="timeline-event__track">Education</span>
-    <time>2003 &ndash; 2015</time>
-    <h3>Deutsche Schule Madrid</h3>
-  </article>
+    <article class="timeline-event">
+      <time>2020 &middot; 5 months</time>
+      <h3>Research Intern &ndash; Deltares</h3>
+      <p>Five-month internship benchmarking clustering methods on satellite water-quality indicators and chlorophyll-A prediction.</p>
+    </article>
+
+    <article class="timeline-event">
+      <time>2019 &middot; 9 months</time>
+      <h3>Working Student &ndash; BASF Ultrasim</h3>
+      <p>Nine-month project developing an OpenFOAM-based solver for injection moulding of composite materials.</p>
+    </article>
+
+    <article class="timeline-event">
+      <time>2018 &middot; 4 months</time>
+      <h3>Research Intern &ndash; Voith, Measurements &amp; Diagnostics</h3>
+      <p>Implemented drivers and GUI tools for roller-pressure recording and image-based imbalance diagnosis.</p>
+    </article>
+  </div>
+
+  <div class="timeline-col timeline-col--right" id="education">
+    <p class="timeline-col__label">Education</p>
+
+    <article class="timeline-event">
+      <time>2024 &ndash; 2025</time>
+      <h3>PostDoc in ML for Aneurysm Risk Assessment &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+    </article>
+
+    <article class="timeline-event">
+      <time>2021 &ndash; 2024</time>
+      <h3>PhD in Computational Mathematics, HPC and Data &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+      <p>Thesis: <em>Hemodynamic Modelling and Simulation of Flow Diverters for Intracranial Aneurysm Treatment</em>.</p>
+    </article>
+
+    <article class="timeline-event">
+      <time>2020 &ndash; 2021</time>
+      <h3>M.Sc. Applied Mathematics &ndash; KTH Royal Institute of Technology, Stockholm</h3>
+    </article>
+
+    <article class="timeline-event">
+      <time>2019 &ndash; 2020</time>
+      <h3>M.Sc. Applied Mathematics &ndash; TU Delft <span class="badge">Cum Laude</span></h3>
+    </article>
+
+    <article class="timeline-event">
+      <time>2015 &ndash; 2019</time>
+      <h3>B.Sc. Physics Engineering &ndash; TU Berlin</h3>
+    </article>
+
+    <article class="timeline-event">
+      <time>2003 &ndash; 2015</time>
+      <h3>Deutsche Schule Madrid</h3>
+    </article>
+
+  </div>
 
 </div>
 
@@ -92,7 +135,7 @@ Computational mathematician and researcher specialising in high-performance comp
 
 <section id="skills">
 
-## Skills
+<h2 class="section-title">Skills</h2>
 
 <div class="skills-grid">
 
@@ -147,7 +190,7 @@ Computational mathematician and researcher specialising in high-performance comp
 
 <section id="projects">
 
-## Projects &amp; Publications
+<h2 class="section-title">Projects &amp; Publications</h2>
 
 <div class="project-cards">
 
