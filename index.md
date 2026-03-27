@@ -82,11 +82,6 @@ Computational mathematician and researcher specialising in high-performance comp
       <h3>Working Student &ndash; BASF Ultrasim</h3>
       <p>CNN-based parameter optimisation in polyurethane foaming simulations.</p>
     </article>
-    <div class="timeline-slot"></div>
-  </div>
-
-  <div class="timeline-row">
-    <div class="timeline-slot"></div>
     <article class="timeline-event timeline-event--right">
       <time>2020 &ndash; 2021</time>
       <h3>M.Sc. Applied Mathematics &ndash; KTH Royal Institute of Technology, Stockholm</h3>
@@ -99,11 +94,6 @@ Computational mathematician and researcher specialising in high-performance comp
       <h3>Research Intern &ndash; Deltares</h3>
       <p>Benchmarking clustering methods on satellite water-quality indicators and chlorophyll-A prediction.</p>
     </article>
-    <div class="timeline-slot"></div>
-  </div>
-
-  <div class="timeline-row">
-    <div class="timeline-slot"></div>
     <article class="timeline-event timeline-event--right">
       <time>2019 &ndash; 2020</time>
       <h3>M.Sc. Applied Mathematics &ndash; TU Delft <span class="badge">Cum Laude</span></h3>
@@ -116,7 +106,10 @@ Computational mathematician and researcher specialising in high-performance comp
       <h3>Working Student &ndash; BASF Ultrasim</h3>
       <p>Developed an OpenFOAM-based solver for injection moulding of composite materials.</p>
     </article>
-    <div class="timeline-slot"></div>
+    <article class="timeline-event timeline-event--right">
+      <time>2015 &ndash; 2019</time>
+      <h3>B.Sc. Physics Engineering &ndash; TU Berlin</h3>
+    </article>
   </div>
 
   <div class="timeline-row">
@@ -125,19 +118,6 @@ Computational mathematician and researcher specialising in high-performance comp
       <h3>Research Intern &ndash; Voith, Measurements &amp; Diagnostics</h3>
       <p>Implemented drivers and GUI tools for roller-pressure recording and image-based imbalance diagnosis.</p>
     </article>
-    <div class="timeline-slot"></div>
-  </div>
-
-  <div class="timeline-row">
-    <div class="timeline-slot"></div>
-    <article class="timeline-event timeline-event--right">
-      <time>2015 &ndash; 2019</time>
-      <h3>B.Sc. Physics Engineering &ndash; TU Berlin</h3>
-    </article>
-  </div>
-
-  <div class="timeline-row">
-    <div class="timeline-slot"></div>
     <article class="timeline-event timeline-event--right">
       <time>2003 &ndash; 2015</time>
       <h3>Deutsche Schule Madrid</h3>
