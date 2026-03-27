@@ -68,11 +68,6 @@ Computational mathematician and researcher specialising in high-performance comp
       <h3>Visiting Researcher &ndash; Stanford University</h3>
       <p>Collaboration on thrombosis-risk prediction in coronary aneurysms using computer vision and deep learning.</p>
     </article>
-    <div class="timeline-slot"></div>
-  </div>
-
-  <div class="timeline-row">
-    <div class="timeline-slot"></div>
     <article class="timeline-event timeline-event--right">
       <time>2021 &ndash; 2024</time>
       <h3>PhD &ndash; Cemef, Mines Paris &middot; PSL University</h3>
