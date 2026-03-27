@@ -37,55 +37,52 @@ Computational mathematician and researcher specialising in high-performance comp
 
 ## Experience &amp; Education
 
-<div class="timeline-two-col">
+<div class="timeline" id="experience">
 
-  <div class="timeline-col timeline-col--left">
-    <p class="timeline-col__label" id="experience">Experience</p>
+  <article class="timeline-event timeline-event--left">
+    <span class="timeline-event__track">Experience</span>
+    <time>2025 &ndash; Present</time>
+    <h3>Research Scientist &ndash; Philips Healthcare</h3>
+    <p>Clinical ultrasound image quality. Implementation and optimisation of shape-adaptive GPU filters for real-time 2D/3D ultrasound texture processing on-cart (NVIDIA RTX GPU).</p>
+  </article>
 
-    <div class="timeline-event">
-      <time>2025 &ndash; Present</time>
-      <h3>Research Scientist &ndash; Philips Healthcare</h3>
-      <p>Clinical ultrasound image quality. Implementation and optimisation of shape-adaptive GPU filters for real-time 2D/3D ultrasound texture processing on-cart (NVIDIA RTX GPU).</p>
-    </div>
+  <article class="timeline-event timeline-event--right">
+    <span class="timeline-event__track">Experience</span>
+    <time>2024 &ndash; 2025</time>
+    <h3>PostDoc &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+    <p>Machine-learning approaches for intracranial aneurysm risk assessment.</p>
+  </article>
 
-    <div class="timeline-event">
-      <time>2024 &ndash; 2025</time>
-      <h3>PostDoc &ndash; Cemef, Mines Paris &middot; PSL University</h3>
-      <p>Machine-learning approaches for intracranial aneurysm risk assessment.</p>
-    </div>
+  <article class="timeline-event timeline-event--left">
+    <span class="timeline-event__track">Experience</span>
+    <time>2021 &ndash; 2024</time>
+    <h3>PhD Researcher &ndash; Cemef, Mines Paris &middot; PSL University</h3>
+    <p>Thesis: <em>Hemodynamic Modelling and Simulation of Flow Diverters for Intracranial Aneurysm Treatment</em>. Derived and implemented a wiring algorithm for braided flow-diverter stents; published in <em>Computers in Biology and Medicine</em>.</p>
+  </article>
 
-    <div class="timeline-event">
-      <time>2021 &ndash; 2024</time>
-      <h3>PhD Researcher &ndash; Cemef, Mines Paris &middot; PSL University</h3>
-      <p>Thesis: <em>Hemodynamic Modelling and Simulation of Flow Diverters for Intracranial Aneurysm Treatment</em>. Derived and implemented a wiring algorithm for braided flow-diverter stents; published in <em>Computers in Biology and Medicine</em>.</p>
-    </div>
+  <article class="timeline-event timeline-event--right" id="education">
+    <span class="timeline-event__track">Education</span>
+    <time>2020 &ndash; 2021</time>
+    <h3>M.Sc. Applied Mathematics &ndash; KTH Royal Institute of Technology, Stockholm</h3>
+  </article>
 
-  </div>
+  <article class="timeline-event timeline-event--left">
+    <span class="timeline-event__track">Education</span>
+    <time>2019 &ndash; 2020</time>
+    <h3>M.Sc. Applied Mathematics &ndash; TU Delft <span class="badge">Cum Laude</span></h3>
+  </article>
 
-  <div class="timeline-col timeline-col--right">
-    <p class="timeline-col__label" id="education">Education</p>
+  <article class="timeline-event timeline-event--right">
+    <span class="timeline-event__track">Education</span>
+    <time>2015 &ndash; 2019</time>
+    <h3>B.Sc. Physics Engineering &ndash; TU Berlin</h3>
+  </article>
 
-    <div class="timeline-event">
-      <time>2020 &ndash; 2021</time>
-      <h3>M.Sc. Applied Mathematics &ndash; KTH Royal Institute of Technology, Stockholm</h3>
-    </div>
-
-    <div class="timeline-event">
-      <time>2019 &ndash; 2020</time>
-      <h3>M.Sc. Applied Mathematics &ndash; TU Delft <span class="badge">Cum Laude</span></h3>
-    </div>
-
-    <div class="timeline-event">
-      <time>2015 &ndash; 2019</time>
-      <h3>B.Sc. Physics Engineering &ndash; TU Berlin</h3>
-    </div>
-
-    <div class="timeline-event">
-      <time>2003 &ndash; 2015</time>
-      <h3>Deutsche Schule Madrid</h3>
-    </div>
-
-  </div>
+  <article class="timeline-event timeline-event--left">
+    <span class="timeline-event__track">Education</span>
+    <time>2003 &ndash; 2015</time>
+    <h3>Deutsche Schule Madrid</h3>
+  </article>
 
 </div>
 
@@ -165,6 +162,7 @@ Computational mathematician and researcher specialising in high-performance comp
   <div class="project-card">
     <h3>Virtual Flow Diverter Deployment for Hemodynamic Simulations</h3>
     <span class="pub-venue">Computers in Biology and Medicine &middot; 2024</span>
+    <img class="project-image" src="{{ '/assets/images/stent_paper_img.png' | relative_url }}" alt="Virtual flow diverter deployment visual from the 2024 publication.">
     <p>Derivation and implementation of a wiring algorithm for braided flow-diverter stents enabling virtual deployment and hemodynamic simulation.</p>
     <div class="project-links">
       <a href="https://www.sciencedirect.com/science/article/pii/S0010482524011089" target="_blank">Paper &rarr;</a>
@@ -175,6 +173,7 @@ Computational mathematician and researcher specialising in high-performance comp
   <div class="project-card">
     <h3>Impact of Domain Boundaries on Hemodynamics in Intracranial Aneurysms</h3>
     <span class="pub-venue">Fluids (MDPI) &middot; 2024</span>
+    <img class="project-image" src="{{ '/assets/images/evaluation_paper.png' | relative_url }}" alt="Domain boundary evaluation figure from the 2024 Fluids publication.">
     <p>Evaluating how inlet/outlet boundary placement within the Circle of Willis affects hemodynamic predictions in intracranial aneurysm simulations.</p>
     <div class="project-links">
       <a href="https://www.mdpi.com/2311-5521/9/1/1" target="_blank">Paper &rarr;</a>
@@ -184,6 +183,7 @@ Computational mathematician and researcher specialising in high-performance comp
   <div class="project-card">
     <h3>Delayed Rupture of Flow Diverter-Treated Giant Aneurysm</h3>
     <span class="pub-venue">Bioengineering (MDPI) &middot; 2025</span>
+    <img class="project-image" src="{{ '/assets/images/rupture_paper.png' | relative_url }}" alt="Simulation figure for delayed rupture risk after flow diverter treatment.">
     <p>Investigating delayed rupture risk after flow diverter treatment of a giant aneurysm using fluid&ndash;structure interaction simulations.</p>
     <div class="project-links">
       <a href="https://www.mdpi.com/2306-5354/12/3/305" target="_blank">Paper &rarr;</a>

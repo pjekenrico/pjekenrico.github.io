@@ -165,6 +165,17 @@ hr {
   color: #444;
 }
 
+.project-image {
+  display: block;
+  width: 100%;
+  max-height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #d9dfe6;
+  margin: 0.55rem 0 0.8rem;
+  box-shadow: 0 6px 16px rgba(24, 36, 48, 0.08);
+}
+
 .project-links {
   display: flex;
   gap: 1rem;
