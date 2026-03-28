@@ -215,14 +215,18 @@ Computational mathematician and researcher specialising in high-performance comp
     </div>
   </div>
 
-  <div class="project-card">
+  <div class="project-card project-card--wide">
     <h3>Impact of Domain Boundaries on Hemodynamics in Intracranial Aneurysms</h3>
     <span class="pub-venue">Fluids (MDPI) &middot; 2024</span>
-    <img class="project-image" src="{{ '/assets/images/evaluation_paper.png' | relative_url }}" alt="Domain boundary evaluation figure from the 2024 Fluids publication.">
     <p>Evaluating how inlet/outlet boundary placement within the Circle of Willis affects hemodynamic predictions in intracranial aneurysm simulations.</p>
     <div class="project-links">
       <a href="https://www.mdpi.com/2311-5521/9/1/1" target="_blank">Paper &rarr;</a>
     </div>
+    <video class="project-video" autoplay loop muted playsinline>
+      <source src="{{ '/assets/videos/CoW.mp4' | relative_url }}" type="video/mp4">
+      <source src="{{ '/assets/videos/CoW.webm' | relative_url }}" type="video/webm">
+      Your browser does not support the video tag.
+    </video>
   </div>
 
   <div class="project-card">
