@@ -281,10 +281,10 @@ hr {
 
 .timeline-label h3 {
   margin: 0 0 0.15rem;
-  font-size: clamp(1.35rem, 2.15vw, 2.05rem);
+  font-size: clamp(1.65rem, 2.45vw, 2.5rem);
   font-weight: 500;
   letter-spacing: 0.01em;
-  line-height: 1.1;
+  line-height: 1.08;
 }
 
 .label-num {
@@ -293,7 +293,7 @@ hr {
 
 .timeline-label p {
   margin: 0;
-  font-size: clamp(0.9rem, 1.45vw, 1.1rem);
+  font-size: clamp(1rem, 1.5vw, 1.28rem);
   line-height: 1.22;
   color: #213a57;
 }
@@ -350,41 +350,35 @@ hr {
 
 .timeline-logo {
   display: block;
-  width: auto;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
   margin-top: 0.7rem;
 }
 
 .timeline-logo--basf {
-  height: 2.6rem;
+  max-width: 11.2rem;
 }
 
 .timeline-logo--voith {
-  height: 3.1rem;
+  max-width: 11.8rem;
 }
 
 .timeline-logo--enercon {
-  height: 2.5rem;
+  max-width: 8.5rem;
 }
 
 @media (max-width: 1100px) {
-  .timeline-label h3 {
-    font-size: 1.55rem;
-  }
-
-  .timeline-label p {
-    font-size: 0.95rem;
-  }
-
   .timeline-logo--basf {
-    height: 2.2rem;
+    max-width: 10.4rem;
   }
 
   .timeline-logo--voith {
-    height: 2.6rem;
+    max-width: 11rem;
   }
 
   .timeline-logo--enercon {
-    height: 2rem;
+    max-width: 7.8rem;
   }
 }
 
@@ -416,21 +410,25 @@ hr {
   }
 
   .timeline-label h3 {
-    font-size: 1.45rem;
+    font-size: 1.55rem;
   }
 
   .timeline-label p {
-    font-size: 1.02rem;
+    font-size: 1.04rem;
   }
 
   .timeline-logo--basf,
   .timeline-logo--voith,
   .timeline-logo--enercon {
-    height: 2.4rem;
+    max-width: 10.2rem;
   }
 
   .timeline-logo--voith {
-    height: 2.8rem;
+    max-width: 10.8rem;
+  }
+
+  .timeline-logo--enercon {
+    max-width: 7.4rem;
   }
 }
 
