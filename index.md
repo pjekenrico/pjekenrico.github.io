@@ -42,83 +42,73 @@ Computational mathematician and researcher specialising in high-performance comp
 
 <h2 class="section-title">Experience &amp; Education</h2>
 
-<div class="map-timeline" style="background-image: url('{{ '/assets/logos/Europe_edit-eps-converted-to.pdf' | relative_url }}');">
-  <svg viewBox="0 0 1000 600" class="map-timeline-svg" preserveAspectRatio="xMidYMid slice">
-    <!-- Connecting lines with bezier curves -->
+<div class="map-timeline" aria-label="Map-based education and experience timeline">
+  <img class="map-timeline-base" src="{{ '/assets/logos/europe_map.png' | relative_url }}" alt="Europe map for timeline locations.">
+
+  <svg viewBox="0 0 1000 620" class="map-timeline-svg" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
     <g class="timeline-connectors">
-      <!-- School (Spain) - cyan -->
-      <path d="M 120 580 Q 300 450 420 380" stroke="#06b6d4" stroke-width="3" fill="none"/>
-      <!-- Bachelor (Berlin) - green -->
-      <path d="M 220 520 Q 380 400 480 320" stroke="#22c55e" stroke-width="3" fill="none"/>
-      <!-- Practical Exp (Germany) - gold -->
-      <path d="M 320 480 Q 450 380 520 300" stroke="#f59e0b" stroke-width="3" fill="none"/>
-      <!-- Masters (KTH) - red -->
-      <path d="M 180 400 Q 380 300 540 240" stroke="#ef4444" stroke-width="3" fill="none"/>
-      <!-- Masters (Delft) - red -->
-      <path d="M 200 380 Q 400 280 520 220" stroke="#ef4444" stroke-width="3" fill="none"/>
-      <!-- PhD (Paris) - orange -->
-      <path d="M 380 350 Q 520 250 600 180" stroke="#f97316" stroke-width="3" fill="none"/>
+      <path d="M 145 430 Q 230 430 290 425" stroke="#09b4ee" stroke-width="4" fill="none"/>
+      <path d="M 145 430 Q 240 430 315 395" stroke="#09b4ee" stroke-width="4" fill="none"/>
+
+      <path d="M 155 165 Q 260 165 430 170" stroke="#c2080b" stroke-width="4" fill="none"/>
+      <path d="M 155 165 Q 260 170 445 230" stroke="#c2080b" stroke-width="4" fill="none"/>
+
+      <path d="M 805 120 Q 735 115 630 220" stroke="#0a8a52" stroke-width="4" fill="none"/>
+
+      <path d="M 800 335 Q 740 330 520 305" stroke="#f0cb17" stroke-width="4" fill="none"/>
+      <path d="M 800 335 Q 735 350 520 345" stroke="#f0cb17" stroke-width="4" fill="none"/>
+      <path d="M 800 335 Q 740 360 525 380" stroke="#f0cb17" stroke-width="4" fill="none"/>
+
+      <path d="M 495 545 Q 500 470 460 375" stroke="#f18f1e" stroke-width="4" fill="none"/>
     </g>
-    
-    <!-- Location circles -->
+
     <g class="timeline-markers">
-      <circle cx="420" cy="380" r="8" fill="none" stroke="#06b6d4" stroke-width="2"/>
-      <circle cx="480" cy="320" r="8" fill="none" stroke="#22c55e" stroke-width="2"/>
-      <circle cx="520" cy="300" r="8" fill="none" stroke="#f59e0b" stroke-width="2"/>
-      <circle cx="540" cy="240" r="8" fill="none" stroke="#ef4444" stroke-width="2"/>
-      <circle cx="520" cy="220" r="8" fill="none" stroke="#ef4444" stroke-width="2"/>
-      <circle cx="600" cy="180" r="8" fill="none" stroke="#f97316" stroke-width="2"/>
+      <circle cx="315" cy="395" r="9" fill="none" stroke="#09b4ee" stroke-width="5"/>
+      <circle cx="290" cy="425" r="9" fill="none" stroke="#09b4ee" stroke-width="5"/>
+
+      <circle cx="430" cy="170" r="9" fill="none" stroke="#c2080b" stroke-width="5"/>
+      <circle cx="445" cy="230" r="9" fill="none" stroke="#c2080b" stroke-width="5"/>
+
+      <circle cx="630" cy="220" r="9" fill="none" stroke="#0a8a52" stroke-width="5"/>
+
+      <circle cx="520" cy="305" r="9" fill="none" stroke="#f0cb17" stroke-width="5"/>
+      <circle cx="520" cy="345" r="9" fill="none" stroke="#f0cb17" stroke-width="5"/>
+      <circle cx="525" cy="380" r="9" fill="none" stroke="#f0cb17" stroke-width="5"/>
+
+      <circle cx="460" cy="375" r="9" fill="none" stroke="#f18f1e" stroke-width="5"/>
     </g>
   </svg>
-  
-  <!-- Timeline boxes positioned over the map -->
-  <div class="timeline-boxes">
-    <div class="timeline-box timeline-box--school" style="--color: #06b6d4;">
-      <h3>School</h3>
-      <ul>
-        <li>Deutsche Schule Madrid</li>
-        <li>Deutsche Schule Barcelona</li>
-      </ul>
-      <span class="timeline-year">2003 &ndash; 2015</span>
-    </div>
-    
-    <div class="timeline-box timeline-box--bachelor" style="--color: #22c55e;">
-      <h3>Bachelor</h3>
-      <p>Physics Engineering</p>
-      <p>TU Berlin</p>
-      <span class="timeline-year">2015 &ndash; 2019</span>
-    </div>
-    
-    <div class="timeline-box timeline-box--practical" style="--color: #f59e0b;">
-      <h3>Practical Exp.</h3>
-      <div class="logo-row">
-        <img src="{{ '/assets/logos/basf.png' | relative_url }}" alt="BASF" class="logo-mini">
-        <img src="{{ '/assets/logos/voith.png' | relative_url }}" alt="Voith" class="logo-mini">
-        <img src="{{ '/assets/logos/enercon.png' | relative_url }}" alt="Enercon" class="logo-mini">
-      </div>
-    </div>
-    
-    <div class="timeline-box timeline-box--masters-kth" style="--color: #ef4444;">
-      <h3>Master</h3>
-      <p>Applied Mathematics</p>
-      <p>KTH Stockholm</p>
-      <span class="timeline-year">2020 &ndash; 2021</span>
-    </div>
-    
-    <div class="timeline-box timeline-box--masters-delft" style="--color: #ef4444;">
-      <h3>Master</h3>
-      <p>Applied Mathematics</p>
-      <p>TU Delft</p>
-      <span class="timeline-year">2019 &ndash; 2020</span>
-      <span class="badge">Cum Laude</span>
-    </div>
-    
-    <div class="timeline-box timeline-box--phd" style="--color: #f97316;">
-      <h3>PhD &amp; PostDoc</h3>
-      <p>Computational Mathematics, HPC &amp; Data</p>
-      <p>Cemef, Mines Paris &ndash; PSL</p>
-      <span class="timeline-year">2021 &ndash; 2025</span>
-    </div>
+
+  <div class="timeline-label timeline-label--school">
+    <h3><span class="label-num">1.</span> School</h3>
+    <p>- DS Madrid</p>
+    <p>- DS Barcelona</p>
+  </div>
+
+  <div class="timeline-label timeline-label--master">
+    <h3><span class="label-num">4.</span> Master</h3>
+    <p>Applied Mathematics</p>
+    <p>- KTH Stockholm</p>
+    <p>- TU Delft</p>
+  </div>
+
+  <div class="timeline-label timeline-label--bachelor">
+    <h3><span class="label-num">2.</span> Bachelor</h3>
+    <p>Physics Engineering</p>
+    <p>- TU Berlin</p>
+  </div>
+
+  <div class="timeline-label timeline-label--practical">
+    <h3><span class="label-num">3.</span> Practical Exp.</h3>
+    <img src="{{ '/assets/logos/basf.png' | relative_url }}" alt="BASF logo" class="timeline-logo timeline-logo--basf">
+    <img src="{{ '/assets/logos/voith.png' | relative_url }}" alt="Voith logo" class="timeline-logo timeline-logo--voith">
+    <img src="{{ '/assets/logos/enercon.png' | relative_url }}" alt="Enercon logo" class="timeline-logo timeline-logo--enercon">
+  </div>
+
+  <div class="timeline-label timeline-label--phd">
+    <h3><span class="label-num">5.</span> PhD &amp; PostDoc</h3>
+    <p>Computational Mathematics, HPC and Data</p>
+    <p>- Cemef, Mines Paris - PSL</p>
   </div>
 </div>
 
