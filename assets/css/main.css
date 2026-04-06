@@ -214,10 +214,8 @@ hr {
 }
 
 .project-image--rupture {
-  height: 190px;
-  max-height: none;
-  object-fit: cover;
-  object-position: center;
+  max-height: 260px;
+  object-fit: contain;
 }
 
 .project-links {
@@ -281,10 +279,10 @@ hr {
 
 .timeline-label h3 {
   margin: 0 0 0.15rem;
-  font-size: clamp(1.65rem, 2.45vw, 2.5rem);
+  font-size: clamp(1rem, 1.5vw, 1.28rem);
   font-weight: 500;
   letter-spacing: 0.01em;
-  line-height: 1.08;
+  line-height: 1.2;
 }
 
 .label-num {
@@ -357,28 +355,28 @@ hr {
 }
 
 .timeline-logo--basf {
-  max-width: 11.2rem;
+  max-width: 8.8rem;
 }
 
 .timeline-logo--voith {
-  max-width: 11.8rem;
+  max-width: 9.4rem;
 }
 
 .timeline-logo--enercon {
-  max-width: 8.5rem;
+  max-width: 6.6rem;
 }
 
 @media (max-width: 1100px) {
   .timeline-logo--basf {
-    max-width: 10.4rem;
+    max-width: 8.1rem;
   }
 
   .timeline-logo--voith {
-    max-width: 11rem;
+    max-width: 8.7rem;
   }
 
   .timeline-logo--enercon {
-    max-width: 7.8rem;
+    max-width: 6.1rem;
   }
 }
 
@@ -410,7 +408,7 @@ hr {
   }
 
   .timeline-label h3 {
-    font-size: 1.55rem;
+    font-size: 1.04rem;
   }
 
   .timeline-label p {
@@ -420,15 +418,15 @@ hr {
   .timeline-logo--basf,
   .timeline-logo--voith,
   .timeline-logo--enercon {
-    max-width: 10.2rem;
+    max-width: 7.8rem;
   }
 
   .timeline-logo--voith {
-    max-width: 10.8rem;
+    max-width: 8.3rem;
   }
 
   .timeline-logo--enercon {
-    max-width: 7.4rem;
+    max-width: 5.8rem;
   }
 }
 
