@@ -220,10 +220,6 @@ hr {
 }
 
 /* ── Project video ────────────────────────────────────── */
-.project-card--wide {
-  grid-column: 1 / -1;   /* spans full grid width */
-}
-
 .project-video {
   display: block;
   width: 100%;
@@ -231,4 +227,169 @@ hr {
   margin-top: 0.75rem;
   border-radius: 4px;
   background: #000;
+}
+
+/* ── Map Timeline ─────────────────────────────────────── */
+.map-timeline {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-width: 900px;
+  margin: 0 auto 2rem;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e1e4e8;
+}
+
+.map-timeline-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.timeline-connectors path,
+.timeline-markers circle {
+  pointer-events: none;
+}
+
+.timeline-boxes {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 20;
+}
+
+.timeline-box {
+  position: absolute;
+  background: white;
+  border-left: 4px solid var(--color);
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 140px;
+}
+
+.timeline-box h3 {
+  margin: 0 0 0.3rem;
+  font-size: 0.95rem;
+  color: var(--color);
+  font-weight: 600;
+}
+
+.timeline-box p {
+  margin: 0.2rem 0;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.timeline-box ul {
+  list-style: none;
+  margin: 0.2rem 0;
+  padding: 0;
+}
+
+.timeline-box li {
+  font-size: 0.8rem;
+  color: #555;
+  margin-bottom: 0.1rem;
+}
+
+.timeline-year {
+  display: block;
+  font-size: 0.75rem;
+  color: #999;
+  font-weight: 500;
+  margin-top: 0.3rem;
+}
+
+.badge {
+  display: inline-block;
+  background: #d4edda;
+  color: #2b6e3a;
+  border-radius: 3px;
+  padding: 0.1rem 0.45rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top: 0.3rem;
+}
+
+/* Positioning individual timeline boxes */
+.timeline-box--school {
+  left: 2%;
+  top: 75%;
+}
+
+.timeline-box--bachelor {
+  left: 8%;
+  top: 60%;
+}
+
+.timeline-box--practical {
+  left: 14%;
+  top: 50%;
+  max-width: 160px;
+}
+
+.timeline-box--masters-kth {
+  left: 8%;
+  top: 28%;
+}
+
+.timeline-box--masters-delft {
+  left: 12%;
+  top: 16%;
+}
+
+.timeline-box--phd {
+  right: 5%;
+  top: 12%;
+  max-width: 150px;
+}
+
+/* Logo row styling */
+.logo-row {
+  display: flex;
+  gap: 0.4rem;
+  margin: 0.4rem 0;
+  align-items: center;
+}
+
+.logo-mini {
+  height: 24px;
+  width: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .map-timeline {
+    aspect-ratio: 4 / 5;
+  }
+  
+  .timeline-box {
+    max-width: 110px;
+    font-size: 0.75rem;
+    padding: 0.6rem 0.75rem;
+  }
+  
+  .timeline-box h3 {
+    font-size: 0.85rem;
+  }
+  
+  .timeline-box--practical {
+    max-width: 130px;
+  }
+  
+  .timeline-box--phd {
+    max-width: 120px;
+  }
 }

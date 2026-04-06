@@ -42,98 +42,84 @@ Computational mathematician and researcher specialising in high-performance comp
 
 <h2 class="section-title">Experience &amp; Education</h2>
 
-<div class="timeline-two-col">
-
-  <div class="timeline-head">
-    <p class="timeline-col__label" id="experience">Experience</p>
-    <p class="timeline-col__label" id="education">Education</p>
+<div class="map-timeline" style="background-image: url('{{ '/assets/logos/Europe_edit-eps-converted-to.pdf' | relative_url }}');">
+  <svg viewBox="0 0 1000 600" class="map-timeline-svg" preserveAspectRatio="xMidYMid slice">
+    <!-- Connecting lines with bezier curves -->
+    <g class="timeline-connectors">
+      <!-- School (Spain) - cyan -->
+      <path d="M 120 580 Q 300 450 420 380" stroke="#06b6d4" stroke-width="3" fill="none"/>
+      <!-- Bachelor (Berlin) - green -->
+      <path d="M 220 520 Q 380 400 480 320" stroke="#22c55e" stroke-width="3" fill="none"/>
+      <!-- Practical Exp (Germany) - gold -->
+      <path d="M 320 480 Q 450 380 520 300" stroke="#f59e0b" stroke-width="3" fill="none"/>
+      <!-- Masters (KTH) - red -->
+      <path d="M 180 400 Q 380 300 540 240" stroke="#ef4444" stroke-width="3" fill="none"/>
+      <!-- Masters (Delft) - red -->
+      <path d="M 200 380 Q 400 280 520 220" stroke="#ef4444" stroke-width="3" fill="none"/>
+      <!-- PhD (Paris) - orange -->
+      <path d="M 380 350 Q 520 250 600 180" stroke="#f97316" stroke-width="3" fill="none"/>
+    </g>
+    
+    <!-- Location circles -->
+    <g class="timeline-markers">
+      <circle cx="420" cy="380" r="8" fill="none" stroke="#06b6d4" stroke-width="2"/>
+      <circle cx="480" cy="320" r="8" fill="none" stroke="#22c55e" stroke-width="2"/>
+      <circle cx="520" cy="300" r="8" fill="none" stroke="#f59e0b" stroke-width="2"/>
+      <circle cx="540" cy="240" r="8" fill="none" stroke="#ef4444" stroke-width="2"/>
+      <circle cx="520" cy="220" r="8" fill="none" stroke="#ef4444" stroke-width="2"/>
+      <circle cx="600" cy="180" r="8" fill="none" stroke="#f97316" stroke-width="2"/>
+    </g>
+  </svg>
+  
+  <!-- Timeline boxes positioned over the map -->
+  <div class="timeline-boxes">
+    <div class="timeline-box timeline-box--school" style="--color: #06b6d4;">
+      <h3>School</h3>
+      <ul>
+        <li>Deutsche Schule Madrid</li>
+        <li>Deutsche Schule Barcelona</li>
+      </ul>
+      <span class="timeline-year">2003 &ndash; 2015</span>
+    </div>
+    
+    <div class="timeline-box timeline-box--bachelor" style="--color: #22c55e;">
+      <h3>Bachelor</h3>
+      <p>Physics Engineering</p>
+      <p>TU Berlin</p>
+      <span class="timeline-year">2015 &ndash; 2019</span>
+    </div>
+    
+    <div class="timeline-box timeline-box--practical" style="--color: #f59e0b;">
+      <h3>Practical Exp.</h3>
+      <div class="logo-row">
+        <img src="{{ '/assets/logos/basf.png' | relative_url }}" alt="BASF" class="logo-mini">
+        <img src="{{ '/assets/logos/voith.png' | relative_url }}" alt="Voith" class="logo-mini">
+        <img src="{{ '/assets/logos/enercon.png' | relative_url }}" alt="Enercon" class="logo-mini">
+      </div>
+    </div>
+    
+    <div class="timeline-box timeline-box--masters-kth" style="--color: #ef4444;">
+      <h3>Master</h3>
+      <p>Applied Mathematics</p>
+      <p>KTH Stockholm</p>
+      <span class="timeline-year">2020 &ndash; 2021</span>
+    </div>
+    
+    <div class="timeline-box timeline-box--masters-delft" style="--color: #ef4444;">
+      <h3>Master</h3>
+      <p>Applied Mathematics</p>
+      <p>TU Delft</p>
+      <span class="timeline-year">2019 &ndash; 2020</span>
+      <span class="badge">Cum Laude</span>
+    </div>
+    
+    <div class="timeline-box timeline-box--phd" style="--color: #f97316;">
+      <h3>PhD &amp; PostDoc</h3>
+      <p>Computational Mathematics, HPC &amp; Data</p>
+      <p>Cemef, Mines Paris &ndash; PSL</p>
+      <span class="timeline-year">2021 &ndash; 2025</span>
+    </div>
   </div>
-
-  <div class="timeline-row">
-    <article class="timeline-event timeline-event--left">
-      <time>2025 &ndash; Present</time>
-      <h3>Research Scientist &ndash; Philips Healthcare</h3>
-      <p>Clinical ultrasound image quality. Implementation and optimisation of shape-adaptive GPU filters for real-time 2D/3D ultrasound texture processing on-cart (NVIDIA RTX GPU).</p>
-    </article>
-    <div class="timeline-slot"></div>
-  </div>
-
-  <div class="timeline-row">
-    <div class="timeline-slot"></div>
-    <article class="timeline-event timeline-event--right">
-      <time>2024 &ndash; 2025</time>
-      <h3>PostDoc &ndash; Cemef, Mines Paris &middot; PSL University</h3>
-      <p>Machine learning for aneurysm risk assessment, combined with Associate Researcher responsibilities in fluid&ndash;structure interaction simulations and continuum modelling for endovascular prostheses.</p>
-    </article>
-  </div>
-
-  <div class="timeline-row">
-    <article class="timeline-event timeline-event--left">
-      <time>2023 &middot; 1 month</time>
-      <h3>Visiting Researcher &ndash; Stanford University</h3>
-      <p>Collaboration on thrombosis-risk prediction in coronary aneurysms using computer vision and deep learning.</p>
-    </article>
-    <article class="timeline-event timeline-event--right">
-      <time>2021 &ndash; 2024</time>
-      <h3>PhD &ndash; Cemef, Mines Paris &middot; PSL University</h3>
-      <p>Computational Mathematics, HPC and Data, with research on image-based hemodynamics simulations and machine-learning approaches for treatment optimisation.</p>
-      <p>Thesis: <em>Hemodynamic Modelling and Simulation of Flow Diverters for Intracranial Aneurysm Treatment</em>.</p>
-    </article>
-  </div>
-
-  <div class="timeline-row">
-    <article class="timeline-event timeline-event--left">
-      <time>2021 &middot; 7 months</time>
-      <h3>Working Student &ndash; BASF Ultrasim</h3>
-      <p>CNN-based parameter optimisation in polyurethane foaming simulations.</p>
-    </article>
-    <article class="timeline-event timeline-event--right">
-      <time>2020 &ndash; 2021</time>
-      <h3>M.Sc. Applied Mathematics &ndash; KTH Royal Institute of Technology, Stockholm</h3>
-    </article>
-  </div>
-
-  <div class="timeline-row">
-    <article class="timeline-event timeline-event--left">
-      <time>2020 &middot; 5 months</time>
-      <h3>Research Intern &ndash; Deltares</h3>
-      <p>Benchmarking clustering methods on satellite water-quality indicators and chlorophyll-A prediction.</p>
-    </article>
-    <article class="timeline-event timeline-event--right">
-      <time>2019 &ndash; 2020</time>
-      <h3>M.Sc. Applied Mathematics &ndash; TU Delft <span class="badge">Cum Laude</span></h3>
-    </article>
-  </div>
-
-  <div class="timeline-row">
-    <article class="timeline-event timeline-event--left">
-      <time>2019 &middot; 9 months</time>
-      <h3>Working Student &ndash; BASF Ultrasim</h3>
-      <p>Developed an OpenFOAM-based solver for injection moulding of composite materials.</p>
-    </article>
-    <article class="timeline-event timeline-event--right">
-      <time>2015 &ndash; 2019</time>
-      <h3>B.Sc. Physics Engineering &ndash; TU Berlin</h3>
-    </article>
-  </div>
-
-  <div class="timeline-row">
-    <article class="timeline-event timeline-event--left">
-      <time>2018 &middot; 4 months</time>
-      <h3>Research Intern &ndash; Voith, Measurements &amp; Diagnostics</h3>
-      <p>Implemented drivers and GUI tools for roller-pressure recording and image-based imbalance diagnosis.</p>
-    </article>
-    <div class="timeline-slot"></div>
-  </div>
-
-  <div class="timeline-row">
-    <div class="timeline-slot"></div>
-    <article class="timeline-event timeline-event--right">
-      <time>2003 &ndash; 2015</time>
-      <h3>Deutsche Schule Madrid</h3>
-    </article>
-  </div>
-
 </div>
 
 </section>
