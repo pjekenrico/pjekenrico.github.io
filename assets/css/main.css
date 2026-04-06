@@ -213,6 +213,13 @@ hr {
   box-shadow: 0 6px 16px rgba(24, 36, 48, 0.08);
 }
 
+.project-image--rupture {
+  height: 190px;
+  max-height: none;
+  object-fit: cover;
+  object-position: center;
+}
+
 .project-links {
   display: flex;
   gap: 1rem;
@@ -238,17 +245,17 @@ hr {
   position: relative;
   width: 100%;
   aspect-ratio: 1000 / 620;
-  max-width: 1040px;
+  max-width: 980px;
   margin: 0 auto 2rem;
   overflow: visible;
 }
 
 .map-timeline-base {
   position: absolute;
-  left: 13%;
-  top: 1.5%;
-  width: 58%;
-  height: 76%;
+  left: 12.5%;
+  top: 2.5%;
+  width: 56%;
+  height: 74%;
   object-fit: contain;
 }
 
@@ -274,10 +281,10 @@ hr {
 
 .timeline-label h3 {
   margin: 0 0 0.15rem;
-  font-size: 2.55rem;
+  font-size: clamp(1.35rem, 2.15vw, 2.05rem);
   font-weight: 500;
   letter-spacing: 0.01em;
-  line-height: 1.05;
+  line-height: 1.1;
 }
 
 .label-num {
@@ -286,15 +293,15 @@ hr {
 
 .timeline-label p {
   margin: 0;
-  font-size: 1.9rem;
-  line-height: 1.25;
+  font-size: clamp(0.9rem, 1.45vw, 1.1rem);
+  line-height: 1.22;
   color: #213a57;
 }
 
 .timeline-label--school {
   left: 1.5%;
-  top: 56%;
-  width: 23%;
+  top: 58%;
+  width: 20%;
 }
 
 .timeline-label--school h3 {
@@ -303,8 +310,8 @@ hr {
 
 .timeline-label--master {
   left: 1.5%;
-  top: 14%;
-  width: 24%;
+  top: 15%;
+  width: 20%;
 }
 
 .timeline-label--master h3 {
@@ -312,9 +319,9 @@ hr {
 }
 
 .timeline-label--bachelor {
-  right: 2.5%;
-  top: 6%;
-  width: 18%;
+  right: 2.2%;
+  top: 7.5%;
+  width: 16.5%;
 }
 
 .timeline-label--bachelor h3 {
@@ -322,9 +329,9 @@ hr {
 }
 
 .timeline-label--practical {
-  right: 1.8%;
-  top: 48%;
-  width: 18%;
+  right: 1.6%;
+  top: 49.5%;
+  width: 16.5%;
 }
 
 .timeline-label--practical h3 {
@@ -332,9 +339,9 @@ hr {
 }
 
 .timeline-label--phd {
-  left: 43%;
-  bottom: 0.5%;
-  width: 37%;
+  left: 41%;
+  bottom: 1%;
+  width: 31%;
 }
 
 .timeline-label--phd h3 {
@@ -348,36 +355,36 @@ hr {
 }
 
 .timeline-logo--basf {
-  height: 4.5rem;
+  height: 2.6rem;
 }
 
 .timeline-logo--voith {
-  height: 5rem;
+  height: 3.1rem;
 }
 
 .timeline-logo--enercon {
-  height: 4rem;
+  height: 2.5rem;
 }
 
 @media (max-width: 1100px) {
   .timeline-label h3 {
-    font-size: 2rem;
+    font-size: 1.55rem;
   }
 
   .timeline-label p {
-    font-size: 1.35rem;
+    font-size: 0.95rem;
   }
 
   .timeline-logo--basf {
-    height: 3.3rem;
+    height: 2.2rem;
   }
 
   .timeline-logo--voith {
-    height: 3.7rem;
+    height: 2.6rem;
   }
 
   .timeline-logo--enercon {
-    height: 3rem;
+    height: 2rem;
   }
 }
 

@@ -213,7 +213,7 @@ Computational mathematician and researcher specialising in high-performance comp
   <div class="project-card">
     <h3>Delayed Rupture of Flow Diverter-Treated Giant Aneurysm</h3>
     <span class="pub-venue">Bioengineering (MDPI) &middot; 2025</span>
-    <img class="project-image" src="{{ '/assets/images/rupture_paper.png' | relative_url }}" alt="Simulation figure for delayed rupture risk after flow diverter treatment.">
+    <img class="project-image project-image--rupture" src="{{ '/assets/images/rupture_paper.png' | relative_url }}" alt="Simulation figure for delayed rupture risk after flow diverter treatment.">
     <p>Investigating delayed rupture risk after flow diverter treatment of a giant aneurysm using fluid&ndash;structure interaction simulations.</p>
     <div class="project-links">
       <a href="https://www.mdpi.com/2306-5354/12/3/305" target="_blank">Paper &rarr;</a>
