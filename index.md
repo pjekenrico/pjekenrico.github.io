@@ -12,12 +12,17 @@ title: Home
 </nav>
 
 <header class="hero">
-  <h1>Pablo Jeken Rico</h1>
-  <p class="hero-tagline">Computational Mathematician &middot; Research Scientist &middot; HPC &amp; Medical Imaging</p>
-  <div class="hero-links">
-    <a href="mailto:pablojeken@hotmail.com">&#9993; pablojeken@hotmail.com</a>
-    <a href="https://github.com/pjekenrico" target="_blank">&#9670; GitHub</a>
-    <span>&#128205; Paris, France</span>
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Pablo Jeken Rico</h1>
+      <p class="hero-tagline">Computational Mathematician &middot; Research Scientist &middot; HPC &amp; Medical Imaging</p>
+      <div class="hero-links">
+        <a href="mailto:pablojeken@hotmail.com">&#9993; pablojeken@hotmail.com</a>
+        <a href="https://github.com/pjekenrico" target="_blank">&#9670; GitHub</a>
+        <span>&#128205; Paris, France</span>
+      </div>
+    </div>
+    <img class="hero-photo" src="{{ '/assets/images/pablo.jpg' | relative_url }}" alt="Portrait of Pablo Jeken Rico.">
   </div>
 </header>
 
@@ -27,7 +32,7 @@ title: Home
 
 <h2 class="section-title">About</h2>
 
-Computational mathematician and researcher specialising in high-performance computing, scientific computing, and medical applications. Currently a Research Scientist at Philips, implementing and optimising GPU-based image-enhancement algorithms for clinical ultrasound (2D &amp; 3D texture processing). Previously worked on PhD and PostDoc research at Cemef, Mines Paris &ndash; PSL University, focusing on hemodynamics modelling and machine-learning approaches for intracranial aneurysm risk assessment.
+Computational mathematician and researcher specialising in high-performance computing, scientific computing, and medical applications. Currently a Research Scientist at Philips, implementing and optimising GPU-based image-enhancement algorithms for clinical ultrasound. Previously worked on PhD and PostDoc research at Cemef, Mines Paris &ndash; PSL University, focusing on hemodynamics modelling and machine-learning approaches for intracranial aneurysm risk assessment.
 
 </section>
 
@@ -215,7 +220,7 @@ Computational mathematician and researcher specialising in high-performance comp
     </div>
   </div>
 
-  <div class="project-card project-card--wide">
+  <div class="project-card">
     <h3>Impact of Domain Boundaries on Hemodynamics in Intracranial Aneurysms</h3>
     <span class="pub-venue">Fluids (MDPI) &middot; 2024</span>
     <p>Evaluating how inlet/outlet boundary placement within the Circle of Willis affects hemodynamic predictions in intracranial aneurysm simulations.</p>
@@ -239,7 +244,7 @@ Computational mathematician and researcher specialising in high-performance comp
     </div>
   </div>
 
-  <div class="project-card project-card--wide">
+  <div class="project-card">
     <h3>FDA Nozzle &mdash; Transitional Flow Simulation</h3>
     <p>Computational fluid dynamics simulation of transitional flow through the FDA benchmark nozzle geometry. Visualisation of 600 time frames capturing the laminar-to-turbulent transition regime.</p>
     <video class="project-video" autoplay loop muted playsinline>
