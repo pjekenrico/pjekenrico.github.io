@@ -46,67 +46,66 @@ Computational mathematician and researcher specialising in high-performance comp
   <img class="map-timeline-base" src="{{ '/assets/logos/europe_map.png' | relative_url }}" alt="Europe map for timeline locations.">
 
   <svg viewBox="0 0 1000 620" class="map-timeline-svg" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
-    <g class="timeline-connectors">
-      <path d="M 145 430 Q 230 430 290 425" stroke="#09b4ee" stroke-width="4" fill="none"/>
-      <path d="M 145 430 Q 240 430 315 395" stroke="#09b4ee" stroke-width="4" fill="none"/>
-
-      <path d="M 155 165 Q 260 165 430 170" stroke="#c2080b" stroke-width="4" fill="none"/>
-      <path d="M 155 165 Q 260 170 445 230" stroke="#c2080b" stroke-width="4" fill="none"/>
-
-      <path d="M 805 120 Q 735 115 630 220" stroke="#0a8a52" stroke-width="4" fill="none"/>
-
-      <path d="M 800 335 Q 740 330 520 305" stroke="#f0cb17" stroke-width="4" fill="none"/>
-      <path d="M 800 335 Q 735 350 520 345" stroke="#f0cb17" stroke-width="4" fill="none"/>
-      <path d="M 800 335 Q 740 360 525 380" stroke="#f0cb17" stroke-width="4" fill="none"/>
-
-      <path d="M 495 545 Q 500 470 460 375" stroke="#f18f1e" stroke-width="4" fill="none"/>
-    </g>
 
     <g class="timeline-markers">
-      <circle cx="315" cy="395" r="9" fill="none" stroke="#09b4ee" stroke-width="5"/>
-      <circle cx="290" cy="425" r="9" fill="none" stroke="#09b4ee" stroke-width="5"/>
+      <!-- Barcelona -->
+      <circle cx="280" cy="545" r="9" fill="none" stroke="#09b4ee" stroke-width="5"/>
+      <!-- Madrid -->
+      <circle cx="200" cy="560" r="9" fill="none" stroke="#09b4ee" stroke-width="5"/>
 
-      <circle cx="430" cy="170" r="9" fill="none" stroke="#c2080b" stroke-width="5"/>
-      <circle cx="445" cy="230" r="9" fill="none" stroke="#c2080b" stroke-width="5"/>
+      <!-- Stockholm -->
+      <circle cx="460" cy="220" r="9" fill="none" stroke="#c2080b" stroke-width="5"/>
+      <!-- Marker position: cx=429, cy=230 -->
+      <circle cx="330" cy="360" r="9" fill="none" stroke="#c2080b" stroke-width="5"/>
 
-      <circle cx="630" cy="220" r="9" fill="none" stroke="#0a8a52" stroke-width="5"/>
+      <!-- Berlin -->
+      <circle cx="420" cy="350" r="9" fill="none" stroke="#c2080b" stroke-width="5"/>
 
-      <circle cx="520" cy="305" r="9" fill="none" stroke="#f0cb17" stroke-width="5"/>
-      <circle cx="520" cy="345" r="9" fill="none" stroke="#f0cb17" stroke-width="5"/>
-      <circle cx="525" cy="380" r="9" fill="none" stroke="#f0cb17" stroke-width="5"/>
+      <!-- Mannheim -->
+      <circle cx="370" cy="410" r="9" fill="none" stroke="#f0cb17" stroke-width="5"/>
+      <!-- Aurich -->
+      <circle cx="370" cy="340" r="9" fill="none" stroke="#f0cb17" stroke-width="5"/>
+      <!-- Ravensburg -->
+      <circle cx="385" cy="435" r="9" fill="none" stroke="#f0cb17" stroke-width="5"/>
 
-      <circle cx="460" cy="375" r="9" fill="none" stroke="#f18f1e" stroke-width="5"/>
+      <!-- Sophia-Antipolis -->
+      <circle cx="345" cy="510" r="9" fill="none" stroke="#f18f1e" stroke-width="5"/>
+
+      <!-- Paris -->
+      <circle cx="300" cy="430" r="9" fill="none" stroke="#0a8a52" stroke-width="5"/>
     </g>
   </svg>
 
   <div class="timeline-label timeline-label--school">
-    <h3><span class="label-num">1.</span> School</h3>
+    <h3><span class="label-num"></span>1. School</h3>
     <p>- DS Madrid</p>
     <p>- DS Barcelona</p>
   </div>
 
   <div class="timeline-label timeline-label--master">
-    <h3><span class="label-num">4.</span> Master</h3>
-    <p>Applied Mathematics</p>
+    <h3><span class="label-num"></span>2. Studies</h3>
+        <p>BSc Physics Engineering</p>
+    <p>- TU Berlin</p>
+    <p>MSc Applied Mathematics</p>
     <p>- KTH Stockholm</p>
     <p>- TU Delft</p>
   </div>
 
   <div class="timeline-label timeline-label--bachelor">
-    <h3><span class="label-num">2.</span> Bachelor</h3>
-    <p>Physics Engineering</p>
-    <p>- TU Berlin</p>
+    <h3><span class="label-num"></span>5. Current work</h3>
+    <p>Philips Ultrasound</p>
+    <p>- Research Engineer</p>
   </div>
 
   <div class="timeline-label timeline-label--practical">
-    <h3><span class="label-num">3.</span> Practical Exp.</h3>
+    <h3><span class="label-num"></span>3. Practical Exp.</h3>
     <img src="{{ '/assets/logos/basf.png' | relative_url }}" alt="BASF logo" class="timeline-logo timeline-logo--basf">
     <img src="{{ '/assets/logos/voith.png' | relative_url }}" alt="Voith logo" class="timeline-logo timeline-logo--voith">
     <img src="{{ '/assets/logos/enercon.png' | relative_url }}" alt="Enercon logo" class="timeline-logo timeline-logo--enercon">
   </div>
 
   <div class="timeline-label timeline-label--phd">
-    <h3><span class="label-num">5.</span> PhD &amp; PostDoc</h3>
+    <h3><span class="label-num"></span>4. PhD &amp; PostDoc</h3>
     <p>Computational Mathematics, HPC and Data</p>
     <p>- Cemef, Mines Paris - PSL</p>
   </div>

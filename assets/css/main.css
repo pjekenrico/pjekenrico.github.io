@@ -214,7 +214,7 @@ hr {
 }
 
 .project-image--rupture {
-  max-height: 260px;
+  max-height: none;
   object-fit: contain;
 }
 
@@ -241,28 +241,32 @@ hr {
 /* ── Map Timeline ─────────────────────────────────────── */
 .map-timeline {
   position: relative;
-  width: 100%;
+  left: 50%;
+  width: min(960px, 96vw);
   aspect-ratio: 1000 / 620;
-  max-width: 980px;
-  margin: 0 auto 2rem;
+  max-width: none;
+  margin: 0 0 2rem;
+  transform: translateX(-50%);
   overflow: visible;
 }
 
 .map-timeline-base {
   position: absolute;
-  left: 12.5%;
+  left: 50%;
   top: 2.5%;
-  width: 56%;
-  height: 74%;
+  width: 68%;
+  height: 82%;
   object-fit: contain;
+  transform: translateX(-50%);
 }
 
 .map-timeline-svg {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  left: 50%;
+  top: 2.5%;
+  width: 68%;
+  height: 82%;
+  transform: translateX(-50%);
   z-index: 20;
 }
 
@@ -275,12 +279,18 @@ hr {
   position: absolute;
   z-index: 30;
   color: #10253f;
+  box-sizing: border-box;
+  padding: 0.55rem 0.7rem 0.75rem;
+  border: 1px solid #d9e0e8;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 6px 18px rgba(18, 33, 50, 0.12);
 }
 
 .timeline-label h3 {
   margin: 0 0 0.15rem;
-  font-size: clamp(1rem, 1.5vw, 1.28rem);
-  font-weight: 500;
+  font-size: clamp(0.75rem, 1.1vw, 0.92rem);
+  font-weight: 600;
   letter-spacing: 0.01em;
   line-height: 1.2;
 }
@@ -291,7 +301,7 @@ hr {
 
 .timeline-label p {
   margin: 0;
-  font-size: clamp(1rem, 1.5vw, 1.28rem);
+  font-size: clamp(0.68rem, 1vw, 0.84rem);
   line-height: 1.22;
   color: #213a57;
 }
@@ -317,7 +327,7 @@ hr {
 }
 
 .timeline-label--bachelor {
-  right: 2.2%;
+  right: 1%;
   top: 7.5%;
   width: 16.5%;
 }
@@ -327,7 +337,7 @@ hr {
 }
 
 .timeline-label--practical {
-  right: 1.6%;
+  right: 0.4%;
   top: 49.5%;
   width: 16.5%;
 }
@@ -393,6 +403,11 @@ hr {
   }
 
   .map-timeline-base {
+    position: relative;
+    left: 50%;
+    width: 112%;
+    max-width: none;
+    transform: translateX(-50%);
     display: block;
     margin-bottom: 0.5rem;
   }
@@ -408,11 +423,11 @@ hr {
   }
 
   .timeline-label h3 {
-    font-size: 1.04rem;
+    font-size: 0.92rem;
   }
 
   .timeline-label p {
-    font-size: 1.04rem;
+    font-size: 0.82rem;
   }
 
   .timeline-logo--basf,
